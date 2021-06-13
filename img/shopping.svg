@@ -1,0 +1,8 @@
+<svg id="shopping" xmlns="http://www.w3.org/2000/svg" width="22" height="21" viewBox="0 0 22 21">
+  <rect id="Rectangle_137" data-name="Rectangle 137" width="22" height="21" fill="none"/>
+  <g id="Icon_feather-shopping-cart" data-name="Icon feather-shopping-cart" transform="translate(1 1)">
+    <path id="Path_290" data-name="Path 290" d="M13.745,30.872A.872.872,0,1,1,12.872,30,.872.872,0,0,1,13.745,30.872Z" transform="translate(-5.894 -13.426)" fill="none" stroke="#1a2e35" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_291" data-name="Path 291" d="M30.245,30.872A.872.872,0,1,1,29.372,30,.872.872,0,0,1,30.245,30.872Z" transform="translate(-12.798 -13.426)" fill="none" stroke="#1a2e35" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_292" data-name="Path 292" d="M1.5,1.5H4.989L7.327,13.181a1.745,1.745,0,0,0,1.745,1.4h8.479a1.745,1.745,0,0,0,1.745-1.4l1.4-7.319H5.862" transform="translate(-1.5 -1.5)" fill="none" stroke="#1a2e35" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+</svg>
