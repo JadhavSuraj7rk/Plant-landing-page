@@ -200,3 +200,28 @@ ion-icon{
     grid-area: 11 / 5 / 13 / 8;
 
 }
+
+
+/*==============
+         AWESOME SLIDER
+==============*/         
+.slider-container{
+  width: 100vw;
+  height: 40vh;
+  outline: 2px solid pink;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container-item {
+  width: 12vw;
+  height: 13vw;
+ 
+  outline: 5px dotted red;
+}
+
+/*===crassula===*/
+.crassula p{
+   font-size: .8rem;
+}
