@@ -444,10 +444,13 @@ img {
 
 @media screen and (max-width: 1205px) {
   .slider-container {
-    flex-direction: column
+   display: none;
    
   }
 
+  img{
+    display: none;
+  }
 
 }
 
