@@ -35,7 +35,7 @@ body {
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   /* line-height: 1.3rem; */
-  overflow: hidden;
+  overflow: scroll;
   -webkit-tap-highlight-color: transparent;
   background: var(--body-background-color);
 }
@@ -347,11 +347,11 @@ ion-icon {
 /*==============
          AWESOME SLIDER
 ==============*/
-.slider-container {
+.swiper-container{
   width: 95vw;
   height: 40vh;
   margin: 0 auto;
-  /* outline: 2px solid pink; */
+  outline: 2px solid pink;
   display: flex;
   align-items: center;
   justify-content: space-around;
