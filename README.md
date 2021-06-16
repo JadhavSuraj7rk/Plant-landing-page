@@ -1,6 +1,6 @@
 # Plant ecommerce landing page ![Landing page](https://img.shields.io/badge/Landing-Page-%23FFC0CB) 
 > I have created an ecommerce landing page
-> Live demo [_here_](https://www.example.com). 
+> Live demo [_here_](https://plant-landing-page.netlify.app/). 
 
 ## General Information
 - The layout of the website is based on Grid and Flexbox.
