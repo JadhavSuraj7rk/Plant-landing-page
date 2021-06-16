@@ -404,6 +404,8 @@ ion-icon {
     line-height: 1.2rem;
 }
 
+
+
 .awesome__slider{
   display: none;
 }
@@ -923,9 +925,7 @@ ion-icon {
   line-height: 1.2rem;
 }
 
-.content a{
-  color: var(--Go-green-text-color);
-}
+
 
 .awesome__slider {
   display: none;
