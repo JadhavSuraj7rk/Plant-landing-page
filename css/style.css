@@ -392,6 +392,105 @@ ion-icon {
     line-height: 1.2rem;
 }
 
+.awesome__slider{
+  display: none;
+}
+
+
+
+
+/*==============
+         AWESOME SLIDER
+==============*/
+.slider-container {
+  width: 95vw;
+  height: 40vh;
+  margin: 0 auto;
+  /* outline: 2px solid pink; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  overflow: hidden;
+  text-align: justify;
+}
+.container-item {
+  width: 10vw;
+  height: 11vw;
+  background: var(--card-back-color);
+  /* outline: 5px dotted red; */
+  text-transform: capitalize;
+  padding: 3rem 0rem;
+  padding-left: 3rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 8px 10px -7px rgba(0, 0, 0, 0.4);
+  position: relative;
+}
+
+.container-item:first-child{
+  width: 16vw;
+  height: 15vw;
+}
+
+
+.container-item h6 {
+  margin-top: 2rem;
+  position: relative;
+  z-index: 10000000;
+}
+
+.container-item p {
+  font-size: 0.6rem;
+  position: absolute;
+  z-index: 10000000;
+}
+
+.content-two{
+  opacity: 0;
+  z-index: 10000000;
+}
+
+.container-item a {
+  color: var(--Go-green-text-color);
+  font-size: 0.7rem;
+  font-weight: 500;
+  position: relative;
+  top: 35px;
+  left: 54px;
+  z-index: 10000000;
+}
+
+
+
+
+
+.container-item img {
+  width: 128px;
+  height: 190px;
+  position: absolute;
+  top: -13%;
+  left: -18px;
+}
+
+.crassula img,
+.hawertgiapsis img,
+.browningia img {
+  height: 200px;
+}
+
+/* .dracaena {
+  width: 16vw;
+  height: 15vw;
+} */
+
+.dracaena h6{
+  font-size: 1.1rem;
+}
+
+.desktop-show-only-img{
+  display: none;
+}
+
 @media screen and (min-width:550px) {
 
   .content h4{
@@ -407,6 +506,19 @@ ion-icon {
   .swiper-container{
     display: none;
   }
+
+  .awesome__slider{
+    display: block;
+  }
+
+  .desktop-show-only-img{
+    display: block;
+  }
+
+  .desktop-show-only-img img{
+    
+  }
+  
   
 
 }
