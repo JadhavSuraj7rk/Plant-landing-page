@@ -8,7 +8,7 @@
              CSS VARIABLES
 =================*/
 :root {
-  --body-background-color: #d9e5e5;
+  --body-background-color: .;
   --Go-green-text-color: #5e9270;
   --hero-text-color: #1a2e35;
   --hero-paragraph-color: #1a2e35;
@@ -186,8 +186,19 @@ ion-icon {
   font-size: 2.5rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
+  background: linear-gradient(to right, #1a2e35 50%, #5e9270 50%, #5e9270);
+ background-size: 200%;
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ transition: 0.5s ease-out;
+
   /* line-height: 3rem; */
 }
+
+.hero-text-heading:hover{
+  background-position: -100%;
+}
+
 
 .hero-paragraph {
   grid-area: 3 / 8 / 9 / 13;
@@ -912,6 +923,10 @@ ion-icon {
   line-height: 1.2rem;
 }
 
+.content a{
+  color: var(--Go-green-text-color);
+}
+
 .awesome__slider {
   display: none;
 }
@@ -942,6 +957,12 @@ ion-icon {
   border-radius: 10px;
   box-shadow: 5px 8px 10px -7px rgba(0, 0, 0, 0.4);
   position: relative;
+  transition: all .5s ease-in-out;
+}
+
+.container-item:hover{
+  background:  rgb(203, 240, 203);
+  
 }
 
 .container-item:first-child {
