@@ -5,10 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Plant Landing Page</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!--==== NAVIGATION BAR ====-->
+
     <header class="header">
       <nav class="navbar">
         <input type="checkbox" name="hamburger__menu" id="hamburger__menu" />
@@ -33,9 +39,12 @@
         </ul>
       </nav>
     </header>
+    <!--==== NAVIGATION BAR ====-->
 
     <main class="main">
+      <div class="desktop-show-only-img">
       <img src="./img/dracena image.webp" alt="" />
+    </div>
       <section class="hero__content">
         <p class="go-green">Go Green</p>
         <h1 class="hero-text-heading">
@@ -52,7 +61,93 @@
       </section>
 
       <!--==== AWESOME SLIDER ==== -->
+      <!-- Swiper -->
+      <div class="swiper-container mySwiper">
+        <div class="swiper-wrapper">
+          <!-- Slider One -->
+          <div class="swiper-slide">
+            <div class="slider-img">
+              <img src="./img/dracena image.webp" alt="" />
+            </div>
+            <div class="content">
+              <h4>
+                Dracaena <span></span>
+                trifasciata
+              </h4>
+              <p>One of the most effective houseplants in air purification</p>
+              <a href="#">Know more</a>
+            </div>
+          </div>
 
+          <!-- Slider Two-->
+          <div class="swiper-slide">
+            <div class="slider-img">
+              <img src="./img/crassula image.webp" alt="" />
+            </div>
+            <div class="content">
+              <h4>
+                Crassus <span></span>
+                Ovata
+              </h4>
+              <p>One of the most effective houseplants in air purification</p>
+              <a href="#">Know more</a>
+            </div>
+          </div>
+
+          <!-- Slider Three -->
+          <div class="swiper-slide">
+            <div class="slider-img">
+              <img src="./img/hawor image.webp" alt="" />
+            </div>
+            <div class="content">
+              <h4>
+                Hawertgiapsis <span></span>
+                Attenuata
+              </h4>
+              <p>One of the most effective houseplants in air purification</p>
+              <a href="#">Know more</a>
+            </div>
+          </div>
+
+          <!-- Slider Four -->
+          <div class="swiper-slide">
+            <div class="slider-img">
+              <img src="./img/brown image.webp" alt="" />
+            </div>
+            <div class="content">
+              <h4>
+                Browningia <span></span>
+                Hertlingisna
+              </h4>
+              <p>One of the most effective houseplants in air purification</p>
+              <a href="#">Know more</a>
+            </div>
+          </div>
+
+          <!-- Slider Five -->
+          <div class="swiper-slide">
+            <div class="slider-img">
+              <img src="./img/chloro image.webp" alt="" />
+            </div>
+            <div class="content">
+              <h4>
+                Chlorophytum <span></span>
+                Comosum
+              </h4>
+              <p>One of the most effective houseplants in air purification</p>
+              <a href="#">Know more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+
+      
+
+      <!--==== AWESOME SLIDER ==== -->
+
+      
       <section class="awesome__slider">
         <!--== Slider Container ==-->
         <div class="slider-container">
@@ -68,21 +163,6 @@
 
           </div>
 
-             <!--=== Slide-one ===-->
-             <!-- <div class="container-item dracaena">
-              <h6>
-                Dracaena <br />
-                trifasciata
-              </h6>
-  
-              <div class="content">
-                <p>One of the most effective houseplants in air purification</p>
-                <a href="#"
-                  >Know more <span><img src="./img/arrow.svg" alt="" /></span
-                ></a>
-              </div>
-            </div> -->
-
           <!--=== Slide-two ===-->
           <div class="container-item crassula">
             <img src="./img/crassula image.webp" alt="" />
@@ -90,11 +170,11 @@
               Crassus <br />
               Ovata
             </h6>
-            <div class="content">
+            <div class="content-two">
               <p>One of the most effective houseplants in air purification</p>
               <a href="#"
-                >Know more <span><img src="./img/arrow.svg" alt="" /></span
-              ></a>
+                >Know more
+              </a>
             </div>
           </div>
 
@@ -107,11 +187,10 @@
               Hawertgiapsis <br />
               Attenuata
             </h6>
-            <div class="content">
+            <div class="content-two">
               <p>One of the most effective houseplants in air purification</p>
               <a href="#"
-                >Know more <span><img src="./img/arrow.svg" alt="" /></span
-              ></a>
+                >Know more </a>
             </div>
           </div>
 
@@ -122,11 +201,10 @@
               Browningia <br />
               Hertlingisna
             </h6>
-            <div class="content">
+            <div class="content-two">
               <p>One of the most effective houseplants in air purification</p>
               <a href="#"
-                >Know more <span><img src="./img/arrow.svg" alt="" /></span
-              ></a>
+                >Know more </a>
             </div>
           </div>
 
@@ -137,11 +215,10 @@
               Chlorophytum <br />
               Comosum
             </h6>
-            <div class="content">
+            <div class="content-two">
               <p>One of the most effective houseplants in air purification</p>
               <a href="#"
-                >Know more <span><img src="./img/arrow.svg" alt="" /></span
-              ></a>
+                >Know more </a>
             </div>
           </div>
         </div>
@@ -154,7 +231,7 @@
       type="module"
       src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"
     ></script>
-
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./js/logic.js"></script>
   </body>
 </html>
