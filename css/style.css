@@ -392,3 +392,21 @@ ion-icon {
     line-height: 1.2rem;
 }
 
+@media screen and (min-width:550px) {
+
+  .content h4{
+    font-size: 2rem;
+  }
+  
+
+}
+
+
+@media screen and (min-width:1290px) {
+
+  .swiper-container{
+    display: none;
+  }
+  
+
+}
