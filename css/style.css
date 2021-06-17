@@ -64,7 +64,7 @@ p {
   float: right;
   display: flex;
   margin-right: 1.5rem;
-  z-index: 99999999999;
+  z-index: 999999999999999;
 }
 
 .unorder_nav_list li {
@@ -450,18 +450,18 @@ ion-icon {
 .container-item h6 {
   margin-top: 2rem;
   position: relative;
-  z-index: 10000000;
+  z-index: 99999999;
 }
 
 .container-item p {
   font-size: 0.6rem;
   position: absolute;
-  z-index: 10000000;
+  z-index: 99999999;
 }
 
 .content-two{
   opacity: 0;
-  z-index: 10000000;
+  z-index: 99999999;
 }
 
 .container-item a {
@@ -471,7 +471,7 @@ ion-icon {
   position: relative;
   top: 35px;
   left: 54px;
-  z-index: 10000000;
+  z-index: 99999999;
 }
 
 
