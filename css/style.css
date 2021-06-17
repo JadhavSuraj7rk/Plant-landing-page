@@ -64,7 +64,7 @@ p {
   float: right;
   display: flex;
   margin-right: 1.5rem;
-  position: absolute;
+  position: relative;
   z-index: 99999999999;
 
 }
